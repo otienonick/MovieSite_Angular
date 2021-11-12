@@ -1,0 +1,33 @@
+<div class="container mt-5">
+  <div class="row">
+<div class="col">
+
+    <div class="column">
+        <ul>
+          <div class="ui raised segment p-5">
+            <h2 class="text-center">List of my movies</h2>
+
+            <div class="ui  column grid">
+            <li style="list-style:none;" *ngFor='let movie of movies'>
+         
+           <div class="card m-2">
+            <img src="{{movie.photo}}" width="300" height="200" alt="">
+            <h5>{{movie.title}}</h5>
+            <p> {{movie.description}}</p>
+
+           </div>
+          
+      
+            </li>
+          </div>
+        </div>
+
+          </ul>
+</div>
+</div>
+
+</div>
+
+</div>
+
+

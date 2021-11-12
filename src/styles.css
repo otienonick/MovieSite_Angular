@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black);
+
+html, body { height: 100%; }
+body { margin: 0;   
+      font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
